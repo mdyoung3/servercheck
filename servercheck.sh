@@ -35,7 +35,7 @@ done
 
 mkdir -p "$DIR"/log
 
-minimumsize=100000
+minimumsize=1000000
 actualsize=$(wc -c < "$OUTPUT")
 
 if [ "$actualsize" -ge "$minimumsize" ]; then
